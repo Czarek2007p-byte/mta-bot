@@ -4,9 +4,9 @@ const express = require('express');
 const app = express();
 app.use(express.json());
 
-// UZUPEŁNIJ SWOIM TOKENEM I ID KANAŁU
-const BOT_TOKEN = MTU1MzA5Njk0NzA4NTA4NjczMA.GPBqBb.NupJUcYkE7A7KVWOkxHQ1loJqhjYYGiP8ddafA;
-const CHANNEL_ID = 1553096632415821844;
+// Token i ID kanału będą bezpiecznie pobierane z panelu Render.com
+const BOT_TOKEN = process.env.BOT_TOKEN;
+const CHANNEL_ID = process.env.CHANNEL_ID;
 
 let messageQueue = [];
 
