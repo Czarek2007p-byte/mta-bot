@@ -5,8 +5,8 @@ const app = express();
 app.use(express.json());
 
 // UZUPEŁNIJ SWOIM TOKENEM I ID KANAŁU
-const BOT_TOKEN = "TUTAJ_WLEJ_TOKEN_BOTA";
-const CHANNEL_ID = "TUTAJ_WLEJ_ID_KANAŁU";
+const BOT_TOKEN = MTU1MzA5Njk0NzA4NTA4NjczMA.GPBqBb.NupJUcYkE7A7KVWOkxHQ1loJqhjYYGiP8ddafA;
+const CHANNEL_ID = 1553096632415821844;
 
 let messageQueue = [];
 
